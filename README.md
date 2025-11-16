@@ -25,15 +25,11 @@ Beauty-and-the-Bot/
 
 This folder contains the Jupyter notebooks used for the recommender-system part of **Beauty-and-the-Bot**.
 
-### Data
-
 All datasets required for the recommender experiments are hosted on Hugging Face:
 
 https://huggingface.co/datasets/xldzha/beauty_and_the_bot_dataset_used/tree/main
 
 Download the relevant files from this dataset and update / keep the paths in the notebooks so they point to your local copy (or your own mounted data directory).
-
-### Notebooks
 
 - `pseudodata.ipynb` – generates the synthetic query–item training and evaluation data.
 - `summarizing_reviews.ipynb` – creates abstractive summaries of product reviews.
