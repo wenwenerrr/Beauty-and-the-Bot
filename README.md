@@ -45,3 +45,10 @@ Download the relevant files from this dataset and update / keep the paths in the
 - `Plotting.ipynb` – code to reproduce the plots used in the report.
 
 To reproduce our results, run these notebooks from a GPU-enabled runtime (e.g. Colab or a local machine with CUDA GPU).
+
+## Fine-tuned Language Model Usage
+1. Set up Hugging Face token
+'''bash
+import os
+os.environ['HF_TOKEN'] = 'your_hugging_face_token_here''''
+2. Import directly from Hugging Face Hub
