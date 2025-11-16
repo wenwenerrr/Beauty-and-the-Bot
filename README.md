@@ -48,7 +48,15 @@ To reproduce our results, run these notebooks from a GPU-enabled runtime (e.g. C
 
 ## Fine-tuned Language Model Usage
 1. Set up Hugging Face token
-'''bash
+'''
 import os
-os.environ['HF_TOKEN'] = 'your_hugging_face_token_here''''
+os.environ['HF_TOKEN'] = 'your_hugging_face_token_here
+'''
 2. Import directly from Hugging Face Hub
+'''
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+model_path = "Dellalala1/LlaMA_3.2_1B_Fine-tuned"
+model = AutoModelForCausalLM.from_pretrained(model_path, dtype="auto")
+tokenizer = AutoTokenizer.from_pretrained(model_path)
+'''
