@@ -1,3 +1,11 @@
+# Whole pipeline
+Here we build the recommendation pipeline from the initial user query input to the chatbot answer, which is shown in the 'Language_model_final.ipynb'. To run it, you should first enter the environment and type 'python recommend_api.py' in the terminal to start the recommendation system api. Then you should follow the instruction of how to load the chatbot model and fill in the 'Language_model_final.ipynb' code. Then you can run the 'Language_model_final.ipynb' code.
+
+## Note
+If you can't run the 'Language_model_final.ipynb' code correctly, you can run "client.ipynb" instead, which is a part of the recommendation pipeline without connecting with the chatbot. It will directly output the information of the recommended products, not the chatbot answer.
+
+
+
 # 👸Beauty-and-the-Bot🤖
 In the increasingly competitive e-commerce industry, customer satisfaction and personalized engagement are critical to brand loyalty. With a wide and diverse customer base, handling large volumes of product inquiries and after-sales questions efficiently has become increasingly important. To address this need, our project develops an intelligent customer service chatbot designed specifically for the Beauty category.
 
