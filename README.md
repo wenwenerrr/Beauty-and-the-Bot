@@ -15,8 +15,16 @@ Beauty-and-the-Bot/
 │ ├── All_Beauty.jsonl
 │ ├── meta_All_Beauty.jsonl
 │ └── qa_Beauty.json
-├── eda.ipynb
-├── ???
+├── Amazon_eda.ipynb
+├── Resources
+│ ├── Recommendation notebook
+│ │ ├──Plotting.ipynb
+│ │ ├──Recommender_system_experiments.ipynb
+│ │ ├──pseudodata.ipynb
+│ │ ├──summarizing_reviews.ipynb
+│ ├── Chatbot notebook
+│ │ ├──Fine-tuning experiment1.ipynb
+│ │ ├──Fine-tuning experiment2.ipynb
 └── ??? 
 ```
 
