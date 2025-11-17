@@ -33,7 +33,10 @@ Beauty-and-the-Bot/
 │ ├── Chatbot notebook
 │ │ ├──Fine-tuning experiment1.ipynb
 │ │ ├──Fine-tuning experiment2.ipynb
-└── ??? 
+├── Final_Project.py
+├── client.ipynb
+├── recommend_api.py
+└── Language_model_final.ipynb
 ```
 
 ## Replication Steps
